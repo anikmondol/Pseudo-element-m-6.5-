@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo</title>
+    <style>
+        h3{
+           color: peru; 
+        }
+        h3:hover{
+            color: aquamarine;
+            background-color: blue;
+        }
+        input{
+            display: flex;
+        }
+        input:focus{
+            color: blue;
+            outline: 0;
+            border: 1px solid red;
+        }
+        a:visited{
+            color: red;
+        }
+        /* li:last-child{
+            color: red;
+        } */
+        li:first-child{
+            color: rgb(222, 35, 44);
+        }
+        li:nth-child(2n){
+            background-color: yellow;
+        }
+    </style>
 </head>
 <body>
     <h3>My heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://www.google.com/">GooGle</a>
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Balia</li>
+        <li>Kalia</li>
+        <li>Malia</li>
+        <li>Plaiya</li>
+        <li>Jalaiy</li>
+    </ul>
 </body>
 </html>
